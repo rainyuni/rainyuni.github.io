@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-16T08:04:24.163Z</updated>
+  <updated>2018-11-16T08:18:19.593Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/11/15/build-a-blog/"/>
     <id>http://yoursite.com/2018/11/15/build-a-blog/</id>
     <published>2018-11-15T12:49:29.000Z</published>
-    <updated>2018-11-16T08:04:24.163Z</updated>
+    <updated>2018-11-16T08:18:19.593Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;接触Hexo也是机缘巧合，10月份的时候在朋友圈刷到eleven小朋友撰写的个人博客搭建教程，文中提到了几个关键词：免费、高效、简洁、自由，这极大的激发了我的探索欲，便马上行动起来。那篇教程以程序员的角度来说很清晰完整，然而在我这种小白看来就过于简
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
