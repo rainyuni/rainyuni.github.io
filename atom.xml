@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-21T06:36:15.736Z</updated>
+  <updated>2018-11-21T07:51:37.754Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,17 @@
     <link href="http://yoursite.com/2018/11/15/build-a-blog/"/>
     <id>http://yoursite.com/2018/11/15/build-a-blog/</id>
     <published>2018-11-15T12:49:29.000Z</published>
-    <updated>2018-11-21T06:36:15.736Z</updated>
+    <updated>2018-11-21T07:51:37.754Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;接触Hexo也是机缘巧合，10月份的时候在朋友圈刷到eleven小朋友撰写的个人博客搭建教程，文中提到了几个关键词：免费、高效、简洁、自由，这极大的激发了我的探索欲，便马上行动起来。那篇教程以程序员的角度来说很清晰完整，然而在我这种小白看来就过于简略，于是过程中不可避免地出现了许多问题：有些很愚蠢，因为不懂程序员的术语，犯了很多常识性错误；有些很意外，超出了讲解的范畴，不得不用各种姿势网上寻找解决方法。好在经历了多次推倒重建，反复尝试之后，终于成功了。喜悦和成就感无处安放，所以借此机会写一篇面向小白的实用教程，只需要会操作电脑，再多一点耐心和细心，拥有真真正正属于自己的博客就是这么简单~&lt;/p&gt;
+&lt;h2 id=&quot;搭建流程概述：&quot;&gt;&lt;a href=&quot;#搭建流程概述：&quot; class=&quot;headerlink&quot; title=&quot;搭建流程概述：&quot;&gt;&lt;/a&gt;搭建流程概述：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;开通GitHub并创建项目仓库  —&amp;gt;  获得免费的远程仓库以托管本地仓库的代码&lt;/li&gt;
+&lt;li&gt;安装git和node.js  —&amp;gt;  安装hexo前的准备&lt;/li&gt;
+&lt;li&gt;安装hexo  —&amp;gt;  建立本地仓库，搭建博客框架&lt;/li&gt;
+&lt;li&gt;配置SSH key  —&amp;gt;  关联本地仓库和远程仓库&lt;/li&gt;
+&lt;li&gt;部署到GitHub  —&amp;gt;  将网站部署到服务器上&lt;br&gt;注：电脑是win7 64位&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -39,32 +39,6 @@
     
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/08/hello-world/"/>
-    <id>http://yoursite.com/2018/11/08/hello-world/</id>
-    <published>2018-11-08T07:36:19.356Z</published>
-    <updated>2018-11-16T01:35:57.187Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   

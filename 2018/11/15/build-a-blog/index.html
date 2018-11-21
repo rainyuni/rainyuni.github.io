@@ -89,10 +89,12 @@
 <meta property="og:site_name" content="rainy&#39;s blog">
 <meta property="og:description" content="前言接触Hexo也是机缘巧合，10月份的时候在朋友圈刷到eleven小朋友撰写的个人博客搭建教程，文中提到了几个关键词：免费、高效、简洁、自由，这极大的激发了我的探索欲，便马上行动起来。那篇教程以程序员的角度来说很清晰完整，然而在我这种小白看来就过于简略，于是过程中不可避免地出现了许多问题：有些很愚蠢，因为不懂程序员的术语，犯了很多常识性错误；有些很意外，超出了讲解的范畴，不得不用各种姿势网上寻找">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-21T06:36:15.736Z">
+<meta property="og:image" content="http://yoursite.com/2018/11/15/build-a-blog/1.jpg">
+<meta property="og:updated_time" content="2018-11-21T07:51:37.754Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="面向小白的超详细hexo+github博客搭建教程">
 <meta name="twitter:description" content="前言接触Hexo也是机缘巧合，10月份的时候在朋友圈刷到eleven小朋友撰写的个人博客搭建教程，文中提到了几个关键词：免费、高效、简洁、自由，这极大的激发了我的探索欲，便马上行动起来。那篇教程以程序员的角度来说很清晰完整，然而在我这种小白看来就过于简略，于是过程中不可避免地出现了许多问题：有些很愚蠢，因为不懂程序员的术语，犯了很多常识性错误；有些很意外，超出了讲解的范畴，不得不用各种姿势网上寻找">
+<meta name="twitter:image" content="http://yoursite.com/2018/11/15/build-a-blog/1.jpg">
 
 
 
@@ -350,11 +352,13 @@
 <li>安装git和node.js  —&gt;  安装hexo前的准备</li>
 <li>安装hexo  —&gt;  建立本地仓库，搭建博客框架</li>
 <li>配置SSH key  —&gt;  关联本地仓库和远程仓库</li>
-<li>部署到GitHub  —&gt;  将网站部署到服务器上<br>注：电脑是win7 64位</li>
+<li>部署到GitHub  —&gt;  将网站部署到服务器上<br>注：电脑是win7 64位<a id="more"></a>
+</li>
 </ul>
 <hr>
 <h2 id="准备Github"><a href="#准备Github" class="headerlink" title="准备Github"></a>准备Github</h2><h3 id="了解GitHub"><a href="#了解GitHub" class="headerlink" title="了解GitHub"></a>了解GitHub</h3><p>推荐阅读<a href="https://blog.csdn.net/kabulore/article/details/51801337" target="_blank" rel="noopener">GitHub官网操作指南中文翻译版</a></p>
-<h3 id="注册一个GitHub账号："><a href="#注册一个GitHub账号：" class="headerlink" title="注册一个GitHub账号："></a>注册一个GitHub账号：</h3><p><code>Github</code></p>
+<h3 id="注册一个GitHub账号"><a href="#注册一个GitHub账号" class="headerlink" title="注册一个GitHub账号"></a>注册一个GitHub账号</h3><p>进入<a href="https://github.com/" target="_blank" rel="noopener">GitHub官网</a>，点击右上角的sign up（注册）跳转到注册页面或直接填写官网主页右侧的表单；<br><img src="/2018/11/15/build-a-blog/1.jpg" alt="注册github"></p>
+<p><font style="color: #DC143C;font-weight: 600;">注意：</font>用户名请花点心思取，后续将通过 <code>https://username.github.io</code> 访问你的博客</p>
 
       
     </div>
@@ -394,22 +398,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/11/08/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -485,7 +473,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -496,7 +484,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -507,7 +495,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -527,7 +515,7 @@
           
 
           <!-- 音乐播放器 -->
-          <div style="margin-top:20px;border:1px solid #30526E;">
+          <div>
             
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="210" height="110" src="//music.163.com/outchain/player?type=2&id=543022&auto=1&height=66"></iframe>
             
@@ -555,7 +543,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建流程概述："><span class="nav-number">2.</span> <span class="nav-text">搭建流程概述：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备Github"><span class="nav-number">3.</span> <span class="nav-text">准备Github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#了解GitHub"><span class="nav-number">3.1.</span> <span class="nav-text">了解GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注册一个GitHub账号："><span class="nav-number">3.2.</span> <span class="nav-text">注册一个GitHub账号：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建流程概述："><span class="nav-number">2.</span> <span class="nav-text">搭建流程概述：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备Github"><span class="nav-number">3.</span> <span class="nav-text">准备Github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#了解GitHub"><span class="nav-number">3.1.</span> <span class="nav-text">了解GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注册一个GitHub账号"><span class="nav-number">3.2.</span> <span class="nav-text">注册一个GitHub账号</span></a></li></ol></li></ol></div>
             
 
           </div>
