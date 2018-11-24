@@ -142,7 +142,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/11/15/build-a-blog/51.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/11/15/build-a-blog/52.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/11/15/build-a-blog/53.jpg">
-<meta property="og:updated_time" content="2018-11-24T02:02:42.803Z">
+<meta property="og:updated_time" content="2018-11-24T02:11:54.434Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="面向小白的超详细hexo+github博客搭建教程">
 <meta name="twitter:description" content="前言接触Hexo也是机缘巧合，10月份的时候在朋友圈刷到eleven小朋友撰写的个人博客搭建教程，文中提到了几个关键词：免费、高效、简洁、自由，这极大的激发了我的探索欲，便马上行动起来。当然程序员的教程对小白来说实在很不友好，过程中不可避免地出现了许多问题，不得不用各种姿势网上寻找解决方法。好在经历了多次推倒重建，反复尝试之后，终于成功了。喜悦和成就感无处安放，所以借此机会写一篇面向小白的实用教程">
@@ -434,8 +434,8 @@
 <h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>输入<code>cnpm install hexo-deployer-git --save</code>，安装部署工具hexo-deployer-git；<br><img src="/2018/11/15/build-a-blog/46.jpg" alt="部署到GitHub"></p>
 <h2 id="修改网站配置"><a href="#修改网站配置" class="headerlink" title="修改网站配置"></a>修改网站配置</h2><p>1、用代码编辑器（如<a href="http://www.sublimetext.com/" target="_blank" rel="noopener">sublime</a>、<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">vscode</a>、<a href="https://atom.io/" target="_blank" rel="noopener">Atom</a>等）打开hexo目录下的_config.yml文件，修改网站配置：<br><img src="/2018/11/15/build-a-blog/47.jpg" alt="修改网站配置"><br>2、对上面内容进行以下修改。repo内容获取方法，进入你的github代码仓库，点击下载按钮，将文本框中的内容复制下来，粘贴到_config.yml的repo处；<br><img src="/2018/11/15/build-a-blog/48.jpg" alt="修改网站配置"><br><img src="/2018/11/15/build-a-blog/49.jpg" alt="修改网站配置"></p>
 <h2 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h2><p>1、现在一切准备工作就绪，通过以下三步部署到github上，以后本地修改完代码都需要经过这一步同步到github；<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p><img src="/2018/11/15/build-a-blog/50.jpg" alt="部署到GitHub"><br><img src="/2018/11/15/build-a-blog/51.jpg" alt="部署到GitHub"><br><img src="/2018/11/15/build-a-blog/52.jpg" alt="部署到GitHub">/2、进行到这一步的话，恭喜，你已经拥有自己的博客啦！打开<code>https://username.github.io</code>（username是你的github账户名）看看努力的成果吧！<br><img src="/2018/11/15/build-a-blog/53.jpg" alt="部署到GitHub"></p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>当然，现在博客还是hexo默认的初始状态，不算美观，需要对它进行个性化配置以及填充内容。这里推荐两篇博文：<a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">hexo的next主题个性化教程：打造炫酷网站</a>、<a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">Hexo撰写文章</a>，关于如何装修博客和发布博文，大家可以参考一二。当然，我自己的配置过程也已经记录了下来，只是相对简单，希望尽早整理出来分享给大家~</p>
+<p><img src="/2018/11/15/build-a-blog/50.jpg" alt="部署到GitHub"><br><img src="/2018/11/15/build-a-blog/51.jpg" alt="部署到GitHub"><br><img src="/2018/11/15/build-a-blog/52.jpg" alt="部署到GitHub">2、进行到这一步的话，恭喜，你已经拥有自己的博客啦！打开<code>https://username.github.io</code>（username是你的github账户名）看看努力的成果吧！<br><img src="/2018/11/15/build-a-blog/53.jpg" alt="部署到GitHub"></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>当然，现在博客还是hexo默认的初始状态，不算美观，需要对它进行个性化配置以及填充内容。这里推荐几篇博文：<a href="https://www.jianshu.com/p/33bc0a0a6e90" target="_blank" rel="noopener">Hexo-修改Hexo主题</a>、<a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">hexo的next主题个性化教程：打造炫酷网站</a>、<a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">Hexo撰写文章</a>，关于如何装修博客和发布博文，大家可以参考一二。当然，我自己的配置过程也已经记录了下来，只是相对简单，希望尽早整理出来分享给大家~</p>
 
       
     </div>
