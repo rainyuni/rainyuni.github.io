@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-26T05:23:35.832Z</updated>
+  <updated>2018-12-08T01:50:25.932Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客装修篇：Next主题个性化配置</title>
+    <link href="http://yoursite.com/2018/11/29/deploy-my-bloy/"/>
+    <id>http://yoursite.com/2018/11/29/deploy-my-bloy/</id>
+    <published>2018-11-29T12:57:01.000Z</published>
+    <updated>2018-12-08T01:50:25.932Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;综述&quot;&gt;&lt;a href=&quot;#综述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>面向小白的超详细hexo+github博客搭建教程</title>
