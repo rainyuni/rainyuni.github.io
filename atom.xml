@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-11T08:32:49.494Z</updated>
+  <updated>2018-12-12T01:06:19.266Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="http://yoursite.com/2018/11/29/deploy-my-bloy/"/>
     <id>http://yoursite.com/2018/11/29/deploy-my-bloy/</id>
     <published>2018-11-29T12:57:01.000Z</published>
-    <updated>2018-12-11T08:32:49.494Z</updated>
+    <updated>2018-12-12T01:06:19.266Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;通过上一篇教程，我们已经搭建好了Hexo博客，但是它呈现的是默认的样子，所以接下来需要对它进行一些“私人定制”：先更换主题，再进行网站配置，本文涉及到的配置内容有：&lt;/p&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;通过上一篇教程，我们已经搭建好了Hexo博客，接下来需要对它进行一些“私人定制”：更换主题以及网站配置。本文涉及到的配置内容有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;选择主题风格&lt;/li&gt;
 &lt;li&gt;设置站点基本信息&lt;/li&gt;
