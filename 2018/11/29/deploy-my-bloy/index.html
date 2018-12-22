@@ -115,7 +115,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/11/29/deploy-my-bloy/24.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/11/29/deploy-my-bloy/25.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/11/29/deploy-my-bloy/26.jpg">
-<meta property="og:updated_time" content="2018-12-21T08:58:29.161Z">
+<meta property="og:updated_time" content="2018-12-22T00:46:01.626Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo博客装修篇：Next主题个性化配置">
 <meta name="twitter:description" content="前言通过上一篇教程，我们已经搭建好了Hexo博客，接下来需要对它进行一些“私人定制”。本文涉及到的配置内容有：  选择主题风格 设置站点基本信息 设置菜单 设置侧边栏 设置头像 添加RSS订阅 添加分类模块 添加标签模块 更改网站图标">
@@ -399,11 +399,9 @@
 <p><img src="/2018/11/29/deploy-my-bloy/19.jpg" alt="设置RSS"><br>3、打开<code>D:\hexo\themes\next</code>下的_config.yml找到rss，设置为<code>rss: /atom.xml；</code><br><img src="/2018/11/29/deploy-my-bloy/20.jpg" alt="设置RSS"></p>
 <h2 id="8、添加分类模块"><a href="#8、添加分类模块" class="headerlink" title="8、添加分类模块"></a>8、添加分类模块</h2><p>1、在hexo根目录下右键打开git bash，输入<code>hexo new page categories</code>新建一个分类页面；<br>2、可以看到source文件夹下多了<code>categorcies/index.md</code>，打开index.md，对它进行下图修改；<br><img src="/2018/11/29/deploy-my-bloy/21.jpg" alt="添加分类模块"><br>3、文章中添加分类的方法：打开博文的md文件，在文章的顶部标题下方添加<code>categories: 分类名</code>，即：<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">title:</span> 文章标题</span><br><span class="line"><span class="symbol">categories:</span> 分类名</span><br></pre></td></tr></table></figure></p>
 <p><img src="/2018/11/29/deploy-my-bloy/22.jpg" alt="添加分类模块"></p>
-<h2 id="9、添加标签模块"><a href="#9、添加标签模块" class="headerlink" title="9、添加标签模块"></a>9、添加标签模块</h2><p>1、在hexo根目录下右键打开git bash，输入<code>hexo new page tags</code>新建一个标签页面；<br>2、可以看到source文件夹下多了<code>tags/index.md</code>，打开index.md，对它进行下图修改；<br><img src="/2018/11/29/deploy-my-bloy/23.jpg" alt="添加标签模块"><br>3、文章中添加标签的方法：打开博文的md文件，在文章的顶部标题下方添加下列代码；<br><code>`</code><br>title: 文章标题<br>tags: </p>
-<ul>
-<li>标签1</li>
-<li>标签2<br>…<br><img src="/2018/11/29/deploy-my-bloy/24.jpg" alt="添加标签模块"><h2 id="10、设置网站的图标Favicon"><a href="#10、设置网站的图标Favicon" class="headerlink" title="10、设置网站的图标Favicon"></a>10、设置网站的图标Favicon</h2>1、下载或制作一张ico图标（参考原图标设置尺寸），然后把图标文件放在/themes/next/source/images里；<br><img src="/2018/11/29/deploy-my-bloy/25.jpg" alt="网站图标"><br>2、然后修改主题配置文件；<br><img src="/2018/11/29/deploy-my-bloy/26.jpg" alt="网站图标"></li>
-</ul>
+<h2 id="9、添加标签模块"><a href="#9、添加标签模块" class="headerlink" title="9、添加标签模块"></a>9、添加标签模块</h2><p>1、在hexo根目录下右键打开git bash，输入<code>hexo new page tags</code>新建一个标签页面；<br>2、可以看到source文件夹下多了<code>tags/index.md</code>，打开index.md，对它进行下图修改；<br><img src="/2018/11/29/deploy-my-bloy/23.jpg" alt="添加标签模块"><br>3、文章中添加标签的方法：打开博文的md文件，在文章的顶部标题下方添加下列代码；<br><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: 文章标题</span><br><span class="line"><span class="keyword">tags:</span> </span><br><span class="line">  - 标签1</span><br><span class="line">  - 标签2</span><br><span class="line">  ...</span><br></pre></td></tr></table></figure></p>
+<p><img src="/2018/11/29/deploy-my-bloy/24.jpg" alt="添加标签模块"></p>
+<h2 id="10、设置网站的图标Favicon"><a href="#10、设置网站的图标Favicon" class="headerlink" title="10、设置网站的图标Favicon"></a>10、设置网站的图标Favicon</h2><p>1、下载或制作一张ico图标（参考原图标设置尺寸），然后把图标文件放在/themes/next/source/images里；<br><img src="/2018/11/29/deploy-my-bloy/25.jpg" alt="网站图标"><br>2、然后修改主题配置文件；<br><img src="/2018/11/29/deploy-my-bloy/26.jpg" alt="网站图标"></p>
 
       
     </div>
