@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-22T00:46:01.626Z</updated>
+  <updated>2018-12-22T07:15:33.057Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/11/29/deploy-my-bloy/"/>
     <id>http://yoursite.com/2018/11/29/deploy-my-bloy/</id>
     <published>2018-11-29T12:57:01.000Z</published>
-    <updated>2018-12-22T00:46:01.626Z</updated>
+    <updated>2018-12-22T07:15:33.057Z</updated>
     
     <summary type="html">
     
@@ -35,7 +35,8 @@
 &lt;li&gt;添加RSS订阅&lt;/li&gt;
 &lt;li&gt;添加分类模块&lt;/li&gt;
 &lt;li&gt;添加标签模块&lt;/li&gt;
-&lt;li&gt;更改网站图标&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;更改网站图标&lt;/li&gt;
+&lt;li&gt;添加背景音乐&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
